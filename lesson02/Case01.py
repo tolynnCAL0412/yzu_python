@@ -19,14 +19,14 @@ d = 0x12    #十六進位
 print(a, b, c, d)
 
 
-#型態
+# 型態
 a = 10
 b = 3.14
 c = 1 + 2J
 print(type(a), type(b), type(c))
 
 
-#變數初始值
+# 變數初始值
 age, name = 18, 'Vincent'
 print(age, name)
 
@@ -38,12 +38,12 @@ mark = score >= 60
 print(mark, type(mark))
 
 
-#保留字
+# 保留字
 kw = keyword.kwlist
 print(kw)
 
 
-#刪除變數
+# 刪除變數
 a = 10
 print(a)
 del a
