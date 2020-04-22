@@ -13,6 +13,6 @@ print('%d %s' % (n, "偶數" if n % 2 == 0 else "奇數"))
 
 # 建構是否是偶數的函式 ?
 def isOdd(n) :
-    return True if n % 2 == 0 else False
+    return "偶數" if n % 2 == 0 else "奇數"
 
 print('%d %s' % (n, isOdd(n)))
