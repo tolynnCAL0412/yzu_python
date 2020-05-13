@@ -1,4 +1,4 @@
-from Lesson06.bar import *
+from lesson06.bar import *
 
 print(os.name)
 print(sys.platform)
