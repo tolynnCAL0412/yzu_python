@@ -8,8 +8,8 @@ print(rows)
 employees = []
 for row in rows:
     data = row.split(', ')
-    dict = {'name':data[0], 'salary':int(data[1].strip('\n'))}
-    employees.append(dict)
+    dictEmp = {'name': data[0], 'salary': int(data[1].strip('\n'))}
+    employees.append(dictEmp)
 
 print(employees)
 
