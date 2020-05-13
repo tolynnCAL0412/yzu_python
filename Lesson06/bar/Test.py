@@ -1,0 +1,9 @@
+from Lesson06.bar import *
+
+print(os.name)
+print(sys.platform)
+print(platform.system())
+print(random()) # 0 <= n < 1.0
+print(randint(1, 10)) # 1 <= n <= 10
+print(randrange(1, 10)) # 1 <= n < 10
+lan = ["Java", "Python", "C#", "Swift"]
