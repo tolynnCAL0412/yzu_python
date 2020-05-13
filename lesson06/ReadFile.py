@@ -1,4 +1,4 @@
-file = open('Salary.txt', 'r', encoding='UTF-8')
+file = open('salary.txt', 'r', encoding='UTF-8')
 
 rows = file.readlines()
 print(rows)
